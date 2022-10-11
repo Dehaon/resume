@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Prompt&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(185, 225, 235);    
+    font-family: 'Lato', 'Roboto', 'Prompt', sans-serif;
+    font-size: 16px;
+    /* border: 5px dashed black; */
+
+}
+.container {
+    max-width: 760px;    
+    margin: auto;
+
+}
+#myface {
+    /* width: 399px; */    
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.header {
+    background: rgb(175, 200, 225);
+    /* background: rgb(27, 105, 145); */
+    height: 270px;
+    border-radius: 5px;
+    margin: 5px 0;
+    /* padding: 10px; */
+    /* padding-bottom: 16px; */
+    
+}
+p {
+    font-style: italic;
+    margin-top: 15px;
+}
+.list {
+    padding-left: 390px;
+    list-style: none;
+}
+li {
+    margin-bottom: 3px;
+}
+h3 {
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+.section {
+    background: rgb(150, 175, 200);
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    border: 1px dashed (100, 125, 150);
+    background:rgb(125, 150, 175);
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 5px 0;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.footer h3{
+    text-align: center;
+}
+.connection {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 14px;
+    border-bottom: 2px;
+}
+.footer label {
+    padding: 5px;
+    font-weight: 600;
+}
+.input {
+    background: rgb(175, 200, 225);
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    /* color: black; */
+    font-weight: 600;
+    font-family: inherit;
+    /* border: black; */
+    /* border-bottom: 5px; */
+}
+#massage {
+    /* width: 708px;     */
+    width: 210%;    
+}
+.btn {
+    color: rgb(200, 225, 250);
+    font-weight: 600;
+    font-size: 90%;
+    background: darkslateblue;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-style: inherit;
+    
+}
+.btn:hover {
+    background: rgb(200, 225, 250);
+    color: darkslateblue;
+    transition: .1s;
+    cursor: pointer;    
+}
+#but {
+    margin-left: 10px;
+}
+::placeholder {
+    font-style: italic;
+}
+
+@media (max-width: 675px) {
+    .header {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .header h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header h3 {
+        padding-left: 15px;
+    }
+
+    .list {
+        padding-left: 30px;
+        /* text-align: center; */
+    }
+
+    table {
+        width: 95%;
+    }
+
+    #myface {
+        width: 60%;
+        /* height: 270px; */
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: ;
+    }
+
+    #massage {
+        width: 203%;
+}
+
+@media (max-width: 550px) {
+    #myface {
+        width: 80%;
+    }
+}

@@ -7,15 +7,17 @@
     <meta name="description" content="Несколько слов обо мне.">
     <meta name="keywords" content="резюме, начинающий программист, junior, java script, js">
     <title>Королев Д.С.</title>
+    <link rel="stylesheet" href="resume.css">
 </head>
 <body>
-   
-    <header class="header">
-        <img src="123.jpg" alt="Мое фото" width="200"> 
-        <h1>Королев Денис Сергеевич</h1> 
+    <div class="container">
+    
+    <header id="header1" class="header">
+        <img id="myface" src="123.jpg" alt="Мое фото">
+        <h1>Королев Денис</h1> 
         <p>Я ничинающий программист. Более 10 лет занимался <em>промышленным альпинизмом</em>. Но пришло время начать все с начала.</p> 
         <h3>Мои увлечения:</h3> 
-        <ul>
+        <ul class="list">
             <li><strong>игры</strong></li>
             <li><strong>путешествия</strong></li>
             <li><strong>бег</strong></li>
@@ -25,7 +27,7 @@
    
    <hr>
    
-   <article class="section">
+   <article id="body1" class="section">
     <h3>Опыт работы:</h3>
         <table>
             <thead>
@@ -50,26 +52,35 @@
  
    <hr>
  
-   <footer class="footer">
-    <a href="https://vk.com/den27omg">ВК</a> <a href="https://t.me/dehaon">TG</a>
-    <h3>Связаться со мной:</h3>
-        <form>
-            <div>
-                <label for="name">Имя:</label>
-                <input type="text" name="" id="name" placeholder="Введите имя.">
+   <footer id="footer1" class="footer">
+    <h3>Связаться со мной</h3>
+        <form>            
+            <div class="connection">
+                <label for="name">Ваше имя:</label>
+                <br>
+                <input type="text" class="input" id="name" placeholder="Введите имя.">
             </div>
-            <div>
-                <label for="mail">Email:</label>
-                <input type="email" name="" id="mail" placeholder="Введите электронную почту.">
+            <div class="connection">
+                <label for="mail">Ваш email:</label>
+                <br>
+                <input type="email" class="input" id="mail" placeholder="Введите электронную почту.">
             </div> 
-            <div>
+            <div class="connection">
                 <label for="massage">Сообщение:</label>
                 <br>
-                <textarea id="massage" placeholder="Введите сообщение."></textarea>
+                <textarea id="massage" class="input" placeholder="Введите сообщение..."></textarea>
             </div>
         </form>
-        <button type="submit">Отправить</button>
+        <div id="but">
+            <button class="btn" type="submit">Отправить</button>
+            <a href="https://vk.com/den27omg">
+                <button class="btn">ВК</button>
+            </a>         
+            <a href="https://t.me/dehaon">
+                <button class="btn">TG</button>
+            </a>
+        </div>
     </footer>
-
+    </div>
 </body>
 </html>
